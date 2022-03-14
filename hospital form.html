@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+        <title>Happy hospital!!</title>
+        <link rel="stylesheet" href="hospital.css">
+
+        
+    </head>
+    <body>
+        <h1>WELCOME TO HAPPY HOSPITAL</h1>
+        
+      <form action="formUpload"  >
+        <div class="container" >
+          
+          Enter your name:- <input type="text" id="name" required placeholder="eg:-sophia" > 
+          <br/>
+          <br>
+          <tr><td>
+          Enter your address:-
+          <textarea name="textarea" id="1" cols="30" rows="2" required placeholder="eg :-houseno,street,area,cityname"></textarea>
+        </td></tr>
+        <br>
+        <br>
+          Enter your contact:-<input type="text" id="contact" name="contact" required placeholder=" eg:- +91-9167939401"
+          minlength="1" maxlength="10" size="10">
+          <br/>
+          <br>
+          Enter your Emergency contact:- <input type="text" id="contact2" name="contact2" required
+          minlength="1" maxlength="10" size="10">
+          <br/>
+          <br>
+          <tr><td></tr>
+          Gender:- 
+          </td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male"  >
+            <label for="male">male</label>
+          </td>
+          <td>
+            <input type="radio" id="female" name="gender" value="female" >
+            <label for="female">female</label>
+          </td>
+          <td>
+            <input type="radio" id="other" name="gender" value="other"   >
+            <label for="other">other</label>
+          </td>
+          <br>
+          <br>
+           Enter your age :- <input type="number" id="age" name="age"
+           min="1" required >
+           <br/>
+           <br>
+           Todays date:- <input type="date" id="date" name="date" required>
+           <br/>
+           <br>
+           Blood Group:- <input type="text"  name="Blood_group" required placeholder="eg:-A,B,AB,O">
+           <br/>
+           <br>
+           ANY OF these options facing right now
+           <div>
+            <input type="checkbox" id="problem1" name="migrane"
+                   >
+            <label for="migrane">migrane</label>
+          </div>
+          
+          <div>
+            <input type="checkbox" id="problem2" name="fever">
+            <label for="fever">fever</label>
+          </div>
+          <div>
+            <input type="checkbox" id="problem3" name="stomach problem"
+                   >
+            <label for="stomah problem">stomach problem</label>
+          </div>
+          <div>
+            <input type="checkbox" id="problem3" name="weakness">
+            <label for="weakness">weakness</label>
+          </div>
+          <br/>
+          <br>
+         <input type="submit" value="Register">
+         <input type="reset" value="reset">
+        </div>
+
+
+        </form>
+        
+    </body>
+</html>

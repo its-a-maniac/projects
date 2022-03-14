@@ -1,0 +1,51 @@
+body {
+    background-image: url("hospital.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+.container{
+    margin: 10px;
+    width: 90%;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 20px 20px 20px 0px ;
+
+}
+input[type='text'],
+input[type='number'],
+input[type='date']
+
+
+{
+    width: 20%;
+    height: 30px;
+    background-color: antiquewhite;
+    box-shadow: 10px 10px 10px 0;
+    border-radius: 50px;
+    cursor: pointer;
+}
+textarea{
+    width: 300px;
+    height: 50px;
+    background-color: antiquewhite;
+    box-shadow: 10px 10px 10px 0;
+    resize: none;
+    
+}
+input[type='submit'],
+input[type='reset']{
+    border-radius: 10px;
+    width: 100px;
+    height:50px;
+    padding: 10px;
+    
+}
+input[type='radio'],
+input[type='checkbox']{
+   position: relative;
+   cursor: pointer;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
