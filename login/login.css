@@ -1,0 +1,15 @@
+body{
+   background-image: ;
+
+
+}
+.container{
+    font-family: arial;
+    font-size: 24px;
+    margin: auto;
+    margin-top: 10%;
+    width: 500px;
+    height: 500px;
+    outline: dashed 5px black;
+  }
+}
