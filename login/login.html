@@ -4,36 +4,42 @@
     <head>
        
         <title>login page</title>
-       
+        
         <link rel="stylesheet" href="login.css">
     </head>
-    <body > 
-        <div class="container">
+    <body background="mountain.jpg" style="background-position: fixed;
+    background-repeat: no-repeat; background-size: 100%;"> 
+        <div class="container" style="margin: center;">
             <form>
-            <th colspan="2"><td>Login</td></th>
-            <br>
+            <th colspan="2"><td><h1>Login</h1></td></th>
+            
             <tbody>
-                <tr><td> <input type="button" value="Login" id="Login"></td>
-                <td> <input type="button" value="Register" id="Register"></td></tr>
+                <tr><td> <input type="button" value="Login" class="Login" style="padding: 10px 24px;border-radius: 12px;
+                background-color:black;color: antiquewhite; border: 2px ;box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);width: 40%;" ></td>
+                <td> <input type="button" value="Register" class="Register"  style="padding: 10px 24px;border-radius: 12px;
+                    background-color:black;color: antiquewhite; border: 2px ;box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);width: 40%;"></td></tr>
             </tbody>
-            <br>
-            <th colspan="1"> <td>Username</td></th>
-            <br>
+            
+            <th colspan="1" > <td ><h4 >Username</h4> </td></th>
+            <tbody >
+                <tr><td><input type="text" name="username" id="username" style="height: 30px;width: 250px;"></td></tr>
+            </tbody>
+            
+            <th colspan="1"> <td><h4>Password</h4></td></th>
+            
             <tbody>
-                <tr><td><input type="text" name="username" id="username"></td></tr>
+                <tr><td><input type="password" name="Password" id="password" style="height: 30px;width: 250px;"></td></tr>
             </tbody>
+            
+            <div class="container2">
+            <tr><td><input type="checkbox" name="human"  id="check1"></td ><td>Check if your are human</td></tr>
+            
+            
+            </div> 
+            
             <br>
-            <th colspan="1"> <td>Password</td></th>
-            <br>
-            <tbody>
-                <tr><td><input type="password" name="Password" id="password"></td></tr>
-            </tbody>
-            <br>
-            <tr><td><input type="checkbox" name="human" id="check1"></td>I am human</tr>
-            <br>
-            <button type="submit"> Continue</button>
-
-
+            <button type="submit" style="padding: 10px 24px;border-radius: 12px;
+            background-color:black;color: antiquewhite; border: 2px ;box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);width: 80%; "> Continue</button>
 
 
 
