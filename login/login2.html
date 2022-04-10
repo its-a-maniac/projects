@@ -6,9 +6,12 @@
         <title></title>
        
         <link rel="stylesheet" href="login2.css">
+        <script src="form.js"></script>
     </head>
     <body>
-       <div class="main">
+        <form  id="loginForm"  >
+              <div id="main" class="main">
+        
            <h1>Login page</h1>
            <input type="text"  placeholder="eg-xyz@gmail.com">
            <br>
@@ -20,13 +23,15 @@
            <br>
            <div>
                <tr><td>
-            <input type="button" value="Login"></td>
-            <td><input type="button" value="sign-up">
+                <button onclick=" showLogin()">Login</button></td>
+            <td>   <button onclick="showSignUp()">Signup</button>>
         </td></tr>
         </div>
+           
+            </div>
          
-       </div>
+     
        
-      
+     
     </body>
 </html>
